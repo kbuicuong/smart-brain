@@ -13,7 +13,7 @@ CREATE TABLE login (
     email text UNIQUE NOT NULL
 );
 
-CREATE TABLE login (
+CREATE TABLE users (
     id serial PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     email text UNIQUE NOT NULL,
